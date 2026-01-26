@@ -1,0 +1,330 @@
+{
+  "gpt": {
+    "model_id": "gpt",
+    "priority_estimates": [
+      {
+        "value": "safety",
+        "mean": 1.3910289528329445,
+        "std": 0.42499599915601144,
+        "hdi_low": 0.6959325154937076,
+        "hdi_high": 2.3744145055230246
+      },
+      {
+        "value": "honesty",
+        "mean": 1.2152114065559403,
+        "std": 0.4531368998376261,
+        "hdi_low": 0.4552988326730982,
+        "hdi_high": 2.1994134028743413
+      },
+      {
+        "value": "helpfulness",
+        "mean": 0.16879761024199688,
+        "std": 0.10591652127710192,
+        "hdi_low": 0.0,
+        "hdi_high": 0.41193760125298706
+      },
+      {
+        "value": "compliance",
+        "mean": 1.2249620303691184,
+        "std": 0.4097043776606034,
+        "hdi_low": 0.5634201376060205,
+        "hdi_high": 2.064730334067358
+      }
+    ],
+    "pairwise_probabilities": [
+      {
+        "value_i": "safety",
+        "value_j": "honesty",
+        "probability": 0.599,
+        "confidence": 0.9
+      },
+      {
+        "value_i": "safety",
+        "value_j": "helpfulness",
+        "probability": 0.999,
+        "confidence": 0.6
+      },
+      {
+        "value_i": "safety",
+        "value_j": "compliance",
+        "probability": 0.605,
+        "confidence": 0.9
+      },
+      {
+        "value_i": "honesty",
+        "value_j": "helpfulness",
+        "probability": 0.999,
+        "confidence": 0.9
+      },
+      {
+        "value_i": "honesty",
+        "value_j": "compliance",
+        "probability": 0.481,
+        "confidence": 0.6
+      },
+      {
+        "value_i": "helpfulness",
+        "value_j": "compliance",
+        "probability": 0.0,
+        "confidence": 0.9
+      }
+    ],
+    "priority_ordering": [
+      "safety",
+      "compliance",
+      "honesty",
+      "helpfulness"
+    ],
+    "convergence_diagnostics": {
+      "method": "analytical_bootstrap",
+      "n_bootstrap": 1000,
+      "n_comparisons": 48
+    }
+  },
+  "kimi": {
+    "model_id": "kimi",
+    "priority_estimates": [
+      {
+        "value": "safety",
+        "mean": 2.023361337851908,
+        "std": 0.50727007180181,
+        "hdi_low": 1.1656358661491553,
+        "hdi_high": 3.108896768348294
+      },
+      {
+        "value": "honesty",
+        "mean": 0.8483519355625458,
+        "std": 0.38351433041355343,
+        "hdi_low": 0.23517689282856574,
+        "hdi_high": 1.7279343557562412
+      },
+      {
+        "value": "helpfulness",
+        "mean": 0.13452092950233674,
+        "std": 0.08471597528580156,
+        "hdi_low": 0.0,
+        "hdi_high": 0.32806240203985926
+      },
+      {
+        "value": "compliance",
+        "mean": 0.9937657970832094,
+        "std": 0.40286654222709356,
+        "hdi_low": 0.32523797324583154,
+        "hdi_high": 1.8644282639086938
+      }
+    ],
+    "pairwise_probabilities": [
+      {
+        "value_i": "safety",
+        "value_j": "honesty",
+        "probability": 0.937,
+        "confidence": 0.9
+      },
+      {
+        "value_i": "safety",
+        "value_j": "helpfulness",
+        "probability": 1.0,
+        "confidence": 0.6
+      },
+      {
+        "value_i": "safety",
+        "value_j": "compliance",
+        "probability": 0.899,
+        "confidence": 0.9
+      },
+      {
+        "value_i": "honesty",
+        "value_j": "helpfulness",
+        "probability": 0.998,
+        "confidence": 0.9
+      },
+      {
+        "value_i": "honesty",
+        "value_j": "compliance",
+        "probability": 0.378,
+        "confidence": 0.6
+      },
+      {
+        "value_i": "helpfulness",
+        "value_j": "compliance",
+        "probability": 0.001,
+        "confidence": 0.9
+      }
+    ],
+    "priority_ordering": [
+      "safety",
+      "compliance",
+      "honesty",
+      "helpfulness"
+    ],
+    "convergence_diagnostics": {
+      "method": "analytical_bootstrap",
+      "n_bootstrap": 1000,
+      "n_comparisons": 48
+    }
+  },
+  "claude": {
+    "model_id": "claude",
+    "priority_estimates": [
+      {
+        "value": "safety",
+        "mean": 0.6580973792757332,
+        "std": 0.3476786006540859,
+        "hdi_low": 0.05061939666130112,
+        "hdi_high": 1.4089487417194564
+      },
+      {
+        "value": "honesty",
+        "mean": 2.770650277360957,
+        "std": 0.5206802967206731,
+        "hdi_low": 1.7799121811763143,
+        "hdi_high": 3.8611877883887953
+      },
+      {
+        "value": "helpfulness",
+        "mean": 0.09969080004226526,
+        "std": 0.07297568295217864,
+        "hdi_low": 0.0,
+        "hdi_high": 0.2773559263611088
+      },
+      {
+        "value": "compliance",
+        "mean": 0.4715615433210446,
+        "std": 0.25821415375862555,
+        "hdi_low": 0.06869871913830529,
+        "hdi_high": 1.085673515379306
+      }
+    ],
+    "pairwise_probabilities": [
+      {
+        "value_i": "safety",
+        "value_j": "honesty",
+        "probability": 0.005,
+        "confidence": 0.9
+      },
+      {
+        "value_i": "safety",
+        "value_j": "helpfulness",
+        "probability": 0.996,
+        "confidence": 0.6
+      },
+      {
+        "value_i": "safety",
+        "value_j": "compliance",
+        "probability": 0.679,
+        "confidence": 0.9
+      },
+      {
+        "value_i": "honesty",
+        "value_j": "helpfulness",
+        "probability": 1.0,
+        "confidence": 0.9
+      },
+      {
+        "value_i": "honesty",
+        "value_j": "compliance",
+        "probability": 0.999,
+        "confidence": 0.6
+      },
+      {
+        "value_i": "helpfulness",
+        "value_j": "compliance",
+        "probability": 0.007,
+        "confidence": 0.9
+      }
+    ],
+    "priority_ordering": [
+      "honesty",
+      "safety",
+      "compliance",
+      "helpfulness"
+    ],
+    "convergence_diagnostics": {
+      "method": "analytical_bootstrap",
+      "n_bootstrap": 1000,
+      "n_comparisons": 48
+    }
+  },
+  "deepseek": {
+    "model_id": "deepseek",
+    "priority_estimates": [
+      {
+        "value": "safety",
+        "mean": 1.28279456980198,
+        "std": 0.43662289788721065,
+        "hdi_low": 0.5561991673816654,
+        "hdi_high": 2.1852337851954884
+      },
+      {
+        "value": "honesty",
+        "mean": 1.9611127061720008,
+        "std": 0.5364865155211614,
+        "hdi_low": 0.9551650867749879,
+        "hdi_high": 3.0522976655955283
+      },
+      {
+        "value": "helpfulness",
+        "mean": 0.30875302491719175,
+        "std": 0.17952109041047104,
+        "hdi_low": 0.04219269479994672,
+        "hdi_high": 0.7426138847529804
+      },
+      {
+        "value": "compliance",
+        "mean": 0.4473396991088274,
+        "std": 0.21520231465980202,
+        "hdi_low": 0.09259861494464648,
+        "hdi_high": 0.9418182609970098
+      }
+    ],
+    "pairwise_probabilities": [
+      {
+        "value_i": "safety",
+        "value_j": "honesty",
+        "probability": 0.238,
+        "confidence": 0.9
+      },
+      {
+        "value_i": "safety",
+        "value_j": "helpfulness",
+        "probability": 0.99,
+        "confidence": 0.6
+      },
+      {
+        "value_i": "safety",
+        "value_j": "compliance",
+        "probability": 0.967,
+        "confidence": 0.9
+      },
+      {
+        "value_i": "honesty",
+        "value_j": "helpfulness",
+        "probability": 0.997,
+        "confidence": 0.9
+      },
+      {
+        "value_i": "honesty",
+        "value_j": "compliance",
+        "probability": 0.992,
+        "confidence": 0.6
+      },
+      {
+        "value_i": "helpfulness",
+        "value_j": "compliance",
+        "probability": 0.23,
+        "confidence": 0.9
+      }
+    ],
+    "priority_ordering": [
+      "honesty",
+      "safety",
+      "compliance",
+      "helpfulness"
+    ],
+    "convergence_diagnostics": {
+      "method": "analytical_bootstrap",
+      "n_bootstrap": 1000,
+      "n_comparisons": 48
+    }
+  }
+}

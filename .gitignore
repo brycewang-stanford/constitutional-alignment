@@ -1,0 +1,35 @@
+# Environment and secrets
+.env
+.env.*
+*.key
+credentials.json
+
+# LaTeX auxiliary files
+*.aux
+*.log
+*.toc
+*.out
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter notebooks with potential secrets
+test-apikey.ipynb
