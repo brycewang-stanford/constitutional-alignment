@@ -92,11 +92,11 @@ models:
 
   - id: "kimi"
     provider: "moonshot"
-    model: "kimi-k2-turbo-preview"
+    model: "kimi-k2-0905-preview"
     display_name: "Kimi"
     ecosystem: "CN"
     api_key_env: "MOONSHOT_API_KEY"
-    # 参数: 1T/32B激活 | 上下文: 256K | 定价: $1.15/$8 per 1M | 编码最强
+    # 参数: 1T/32B激活 | 上下文: 256K | 定价: $0.6/$2.5; kimi-k2-turbo-preview - $1.15/$8 per 1M | 编码最强
 
 # 提示词模板
 prompts:
