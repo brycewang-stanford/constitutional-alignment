@@ -14,8 +14,10 @@ keywords:
   - LLM Evaluation
   - AI Safety
   - Bradley-Terry Model
+doi: "10.5281/zenodo.18636689"
 license: Apache-2.0
 repository-code: "https://github.com/brycewang-stanford/constitutional-alignment"
+url: "https://doi.org/10.5281/zenodo.18636689"
 date-released: "2025-06-01"
 abstract: >-
   Large Language Models (LLMs) are increasingly equipped with explicit

@@ -1,5 +1,7 @@
 # ValuePriorityBench
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18636689.svg)](https://doi.org/10.5281/zenodo.18636689)
+
 **Inferring Value Priority Orderings for Constitutional Alignment in LLMs via Bayesian Bradley-Terry Models**
 
 Bryce Wang — Stanford University
@@ -72,7 +74,9 @@ If you use this work, please cite:
 @article{wang2025valueprioritybench,
   title={Inferring Value Priority Orderings for Constitutional Alignment in LLMs via Bayesian Bradley-Terry Models},
   author={Wang, Bryce},
-  year={2025}
+  year={2025},
+  doi={10.5281/zenodo.18636689},
+  url={https://doi.org/10.5281/zenodo.18636689}
 }
 ```
 
