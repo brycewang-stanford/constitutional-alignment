@@ -33,3 +33,7 @@ Thumbs.db
 
 # Jupyter notebooks with potential secrets
 test-apikey.ipynb
+
+# Unpublished research notes
+research_ideas.md
+Constitutional Alignment-proposal.md

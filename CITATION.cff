@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+type: article
+title: "Inferring Value Priority Orderings for Constitutional Alignment in LLMs via Bayesian Bradley-Terry Models"
+authors:
+  - family-names: Wang
+    given-names: Bryce
+    affiliation: Stanford University
+    email: brycewang2018@gmail.com
+keywords:
+  - Value Alignment
+  - Constitutional AI
+  - Preference Learning
+  - LLM Evaluation
+  - AI Safety
+  - Bradley-Terry Model
+license: Apache-2.0
+repository-code: "https://github.com/brycewang-stanford/constitutional-alignment"
+date-released: "2025-06-01"
+abstract: >-
+  Large Language Models (LLMs) are increasingly equipped with explicit
+  "constitutions" that specify hierarchical value priorities. However,
+  there is currently no rigorous quantitative method to verify whether
+  an LLM's actual behavior aligns with its declared value ordering.
+  This paper proposes ValuePriorityBench, a probabilistic framework
+  for reverse-engineering implicit value priorities from LLM behavior
+  using Bayesian Bradley-Terry inference for quantifying priority
+  orderings with uncertainty estimates.
