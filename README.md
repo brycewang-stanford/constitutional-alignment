@@ -2,6 +2,10 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18636689.svg)](https://doi.org/10.5281/zenodo.18636689)
 
+<p align="center">
+  <img src="figures/banner.png" width="80%" alt="Constitutional Alignment" />
+</p>
+
 **Inferring Value Priority Orderings for Constitutional Alignment in LLMs via Bayesian Bradley-Terry Models**
 
 Bryce Wang — Stanford University
